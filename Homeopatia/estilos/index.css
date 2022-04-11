@@ -1,0 +1,302 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Barra de navegacion*/
+
+.cabecera-principal
+{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-centro
+{
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #56B280;
+}
+
+.menu-centro-lista
+{
+    display: flex;
+    list-style: none;
+    margin-right: 10%;
+}
+
+.menu-centro-lista-item
+{
+    margin: 0 20px;
+}
+
+.menu-centro-link
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*Imagen de portada || suma +50px*/
+
+.header-container
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/bg-image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido-centro
+{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    opacity: 0.90;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.titulo { font-weight: 500; }
+
+.parrafo 
+{
+    margin-top: 20px;
+    margin: 20px 40px;
+    font-size: 20px;
+    font-weight: 100; 
+}
+
+.btnRegistro
+{
+    width: 250px;
+    height: 40px;
+    background-color: #56B280;
+}
+
+/*Seccion de productos*/
+
+.textoProd-container
+{
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.textoProd
+{
+    text-align: center;
+}
+
+.parrafoProd
+{
+    margin-top: 10px;
+}
+
+.contenido-productos
+{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articulos-container
+{
+    width: 60%;
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.articulos
+{
+    width: 200px;
+    height: 200px;
+}
+
+.img
+{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgHo
+{
+    background-image: url("../img/imgHomeopatia.png");
+    border-radius: 4%;
+}
+
+.imgFlo
+{
+    background-image: url("../img/flores.png");
+    border-radius: 4%;
+}
+.imgIma
+{
+    background-image: url("../img/imanes.png");
+    border-radius: 4%;
+}
+
+.parrafoDesc
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Seccion descripcion de homeopatia*/
+
+.sectionDescripcion
+{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    background-color: #F7F8FA;
+}
+
+.div-izquierda
+{
+    width: 50%;
+    height: 300px;
+}
+
+.div-contenido-texto
+{
+    margin: 90px 100px;
+}
+
+
+.div-derecha
+{
+    width: 50%;
+    margin: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgHomeopatia
+{
+    background-image: url("../img/descHomepatia.png");
+    border-radius: 4%;
+}
+
+
+.imgFlores
+{
+    background-image: url("../img/descflores.png");
+    border-radius: 4%;
+}
+
+.imgImanes
+{
+    background-image: url("../img/desCImanes.png");
+    border-radius: 4%;
+}
+
+/*Seccion del pie de pagina*/
+
+footer
+{
+	width: 100%;
+	height: auto;
+	position: relative; 
+	bottom: 0;
+	top: 80px;
+	background: #56B280; 
+}
+
+.container-footer
+{
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.container-footer p
+{
+	margin: auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.container-footer h3:hover
+{
+	color: black;
+	font-size: 20px;
+}
+
+.container-footer img
+{
+	width: 50px; 
+	height: 50px;
+	display: flex; 
+	justify-items: left; 
+
+}
+
+.sociales
+{
+	list-style: none; 
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	margin: 1rem 0 1rem 0;
+}
+
+.sociales li
+{
+	margin: 0 10px;
+}
+
+.sociales a
+{
+	text-decoration: none;
+	color: #fff; 
+}
+
+.sociales a:hover i
+{
+	color: black;
+}
+
+.footer-inferior
+{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	background: black;
+}
