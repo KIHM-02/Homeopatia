@@ -1,0 +1,42 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.titulo {
+    margin-top: 20px;
+    color: black;
+}
+
+.formulario {
+    width: 30%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #56B280;
+}
+
+.formulario table {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.formulario table tr td {
+    padding: 20px;
+}
+
+#btnIniciar {
+    text-align: center;
+}
+
+#iniciarSesion{
+    width: 228px;
+    height: 25px;
+}

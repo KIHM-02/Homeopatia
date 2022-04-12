@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -29,21 +29,24 @@
 		<div class = "articulos-container">
 			<article class="articulos">
 				<img class=" img imgHo">
-				<p class = "parrafoDesc">Medicina alternativa</p>
+				<p>Homeopatia</p>
 			</article>
 
 			<article class="articulos">
 				<img class="img imgFlo">
-				<p class = "parrafoDesc">Escencias naturales</p>
+				<p>Flores de Bach</p>
 			</article>
 
 			<article class="articulos">
 				<img class = "img imgIma">
-				<p class = "parrafoDesc"> Tratamientos de prevención </p>
+				<p>Imanes terapeuticos</p>
 			</article>
 		</div>
-
 	</section>
+
+	<div class = "btnProductos-container">
+		<a class = "menu-centro-link" href="productos.php"><button class = "btnProductos">Ver Productos</button></a>
+	</div>
 
 	<!--Segunda seccion, descripcion homeopatia -->
 	<section class = "sectionDescripcion">
